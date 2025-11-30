@@ -70,8 +70,9 @@ export function Navbar() {
                 <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300">
-              Reserve Table
+            <Button  className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300">
+            <a href="#contact">
+              Reserve Table</a>
             </Button>
           </div>
 
