@@ -166,8 +166,8 @@ async function POST(req) {
         const { name = "N/A", email = "N/A", phone = "N/A", date = "N/A", guests = "N/A", message = "N/A" } = body;
         const accountSid = process.env.TWILIO_ACCOUNT_SID;
         const authToken = process.env.TWILIO_AUTH_TOKEN;
-        const twilioWhatsappNumber = process.env.TWILIO_WHATSAPP_NUMBER; // e.g. whatsapp:+14155238886 (sandbox)
-        const ownerNumber = process.env.WHATSAPP_OWNER_NUMBER; // e.g. whatsapp:+91XXXXXXXXXX
+        const twilioWhatsappNumber = process.env.TWILIO_WHATSAPP_NUMBER;
+        const ownerNumber = process.env.WHATSAPP_OWNER_NUMBER;
         if (!accountSid || !authToken || !twilioWhatsappNumber || !ownerNumber) {
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 error: "Missing Twilio environment variables"
