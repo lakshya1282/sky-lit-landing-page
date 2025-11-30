@@ -1,69 +1,7 @@
-[00:00:01.834] Server  LOG      ✓ Ready in 1253ms
-[00:00:12.172] Server  WARN     ⚠ Cross origin request detected from 192.168.29.154 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.182] Server  LOG      ✓ Ready in 789ms
+[00:00:05.635] Server  WARN     ⚠ Cross origin request detected from 192.168.29.154 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:12.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.468] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:12.468] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:12.469] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764514420555}
-[00:01:01.514] Browser LOG     Form submitted: {"date":"2025-12-03","email":"lakshyaparmar1282@gmail.com","guests":"2","message":"uajfdha;fhdasfuha","name":"Lakshya","phone":"+919303795369"}
-[00:01:43.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:43.619] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:43.619] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:43.619] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764514511707}
-[00:02:15.973] Browser LOG     Form submitted: {"date":"2025-12-02","email":"lakshyaparmar1282@gmail.com","guests":"2","message":"saddada","name":"lakshya","phone":"+919303795369"}
-[00:08:45.909] Browser LOG     Form submitted: {"date":"2002-02-01","email":"babycd@gmail.com","guests":"2","message":"","name":"adfsadfasf","phone":"+919999999999"}
-[00:13:14.150] Server  LOG      ✓ Compiled in 70ms
-[00:13:14.968] Browser ERROR   ./app/page.tsx:6:1
-Export ContactSection doesn't exist in target module
-  4 | import { MenuSection } from "@/components/menu-section"
-  5 | import { TestimonialsSection } from "@/components/testimonials-section"
-> 6 | import { ContactSection } from "@/components/contact-section"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 | import { Navbar } from "@/components/navbar"
-  8 | import { Footer } from "@/components/footer"
-  9 | import { AOSInitializer } from "@/components/aos-initializer"
-
-The export ContactSection was not found in module [project]/components/contact-section.tsx [app-rsc] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[00:15:11.468] Server  LOG      ✓ Compiled in 71ms
-[00:15:16.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:17.060] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:17.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:15:17.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764515325148}
-[00:16:38.527] Server  LOG        Reload env: .env.local
-[00:18:45.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:45.835] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:45.835] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:45.835] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764515533919}
-[00:23:16.794] Server  LOG      ✓ Compiled in 89ms
-[00:23:18.352] Server  LOG      ✓ Compiled in 45ms
-[00:23:20.041] Server  LOG      ✓ Compiled in 38ms
-[00:23:21.912] Server  LOG      ✓ Compiled in 49ms
-[00:23:29.429] Server  LOG      ✓ Compiled in 61ms
-[00:23:33.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:34.516] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:23:34.516] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:23:34.516] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764515822604}
-[00:23:44.147] Server  LOG      ✓ Compiled in 44ms
-[00:23:46.699] Server  LOG      ✓ Compiled in 78ms
-[00:23:51.277] Server  LOG      ✓ Compiled in 41ms
-[00:24:03.154] Server  LOG      ✓ Compiled in 46ms
-[00:24:09.025] Server  LOG      ✓ Compiled in 45ms
-[00:24:10.157] Server  LOG      ✓ Compiled in 44ms
-[00:24:12.331] Server  LOG      ✓ Compiled in 49ms
-[00:24:14.468] Server  LOG      ✓ Compiled in 44ms
-[00:24:22.668] Server  LOG      ✓ Compiled in 60ms
-[00:24:35.024] Server  LOG      ✓ Compiled in 69ms
-[00:25:59.588] Server  LOG      ✓ Compiled in 38ms
-[00:26:11.625] Server  LOG      ✓ Compiled in 56ms
-[00:26:20.287] Server  LOG      ✓ Compiled in 37ms
-[00:26:27.247] Server  LOG      ✓ Compiled in 134ms
-[00:26:44.119] Server  LOG      ✓ Compiled in 61ms
-[00:26:46.168] Server  LOG      ✓ Compiled in 41ms
-[00:26:50.170] Server  LOG      ✓ Compiled in 35ms
-[00:27:06.955] Server  LOG      ✓ Compiled in 38ms
-[00:27:28.500] Server  LOG      ✓ Compiled in 41ms
-[00:27:30.645] Server  LOG      ✓ Compiled in 47ms
-[00:27:38.359] Server  LOG      ✓ Compiled in 47ms
-[00:27:49.646] Server  LOG      ✓ Compiled in 67ms
+[00:00:05.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.792] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.792] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:06.792] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.29.154:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.29.154:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764516991233}

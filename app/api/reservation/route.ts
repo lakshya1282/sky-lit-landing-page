@@ -15,8 +15,8 @@ export async function POST(req: Request) {
 
     const accountSid = process.env.TWILIO_ACCOUNT_SID!;
     const authToken = process.env.TWILIO_AUTH_TOKEN!;
-    const twilioWhatsappNumber = process.env.TWILIO_WHATSAPP_NUMBER!; // e.g. whatsapp:+14155238886 (sandbox)
-    const ownerNumber = process.env.WHATSAPP_OWNER_NUMBER!; // e.g. whatsapp:+91XXXXXXXXXX
+    const twilioWhatsappNumber = process.env.TWILIO_WHATSAPP_NUMBER!; 
+    const ownerNumber = process.env.WHATSAPP_OWNER_NUMBER!; 
 
     if (!accountSid || !authToken || !twilioWhatsappNumber || !ownerNumber) {
       return NextResponse.json(
