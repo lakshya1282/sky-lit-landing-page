@@ -1694,7 +1694,7 @@ function MenuSection() {
         columnNumber: 5
     }, this);
 }
-_s(MenuSection, "9YPN+GfVmPR/aHrbe8ZbG/ZWNbQ=");
+_s(MenuSection, "Dp4x46DVJTzBohq/Jgdc5yNltpM=");
 _c = MenuSection;
 var _c;
 __turbopack_context__.k.register(_c, "MenuSection");
@@ -2573,7 +2573,7 @@ function ContactSection() {
         columnNumber: 5
     }, this);
 }
-_s(ContactSection, "VPJ8xiDLtjpatLOV63A/1tXu3sM=");
+_s(ContactSection, "rPRyjtRDb1M6HAdC5Ys6BWJBlig=");
 _c = ContactSection;
 var _c;
 __turbopack_context__.k.register(_c, "ContactSection");
